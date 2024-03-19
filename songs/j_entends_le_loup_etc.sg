@@ -1,0 +1,24 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{J’ai vu le loup}
+  [by={}]
+
+  \begin{verse*}
+    J'ai vu le loup, le renard, la belette,
+    J'ai vu le loup, le renard danser
+    C'est moi-même qui les ai revirés,
+    J'ai vu le loup, le renard, la belette,
+    C'est moi-même qui les ai revirés,
+    J'ai vu le loup, le renard da,ser.
+  \end{verse*}
+
+  \begin{verse*}
+    J'ai ouï le loup, le renard, la belette,
+    J'ai ouï le loup, le renard chanter
+    C'est moi-même qui les ai rechignés,
+    J'ai ouï le loup, le renard, la belette,
+    C'est moi-même qui les ai rechignés
+    J'ai ouï le loup, le renard chanter.
+  \end{verse*}
+
+\endsong

@@ -1,0 +1,67 @@
+book:
+  lang: fr
+  encoding: utf8
+  datadir: ".."
+  pictures: no
+  template: data.tex
+chords:
+  show: yes
+  diagramreminder: important
+  diagrampage: all
+  repeatchords: no
+  lilypond: no
+
+content:
+  sort:
+    key: ["title"]
+    content:
+      # - "*.sg"
+      - "claude_nougaro/armstrong.sg"
+      - "joe_dassin/les_champs_elysees.sg"
+      - "amplitude/avec_ma_tribu.sg"
+      - "telephone/cendrillon.sg"
+      - "amplitude/chant_des_equipages.sg"
+      - "traditionnel/chevaliers_de_la_table_ronde.sg"
+      - "amplitude/cite_cap.sg"
+      - "hugues_aufray/debout_les_gars.sg"
+      - "renaud/des_que_le_vent_soufflera.sg"
+      - "soldat_louis/du_rhum_des_femmes.sg"
+      - "jean-jacques_goldman/encore_un_matin.sg"
+      - "amplitude/des_couleurs_sur_mon_chemin.sg"
+      - "amplitude/graines_de_diversite.sg"
+      - "jeremie_dazy/je_prends_le_relais.sg"
+      - "indochine/l_aventurier.sg"
+      - "traditionnel/l_homme_de_cromagnon.sg"
+      - "amplitude/la_caravane.sg"
+      - "manau/la_tribu_de_dana.sg"
+      - "hugues_aufray/le_bon_dieu_s_enervait.sg"
+      - "pow_wow/le_lion_est_mort_ce_soir.sg"
+      - "steve_waring/le_matou.sg"
+      - "marc_durand/le_monsieur_en_chemise.sg"
+      - "hugues_aufray/le_petit_ane_gris.sg"
+      - "renaud/mistral_gagnant.sg"
+      - "maxime_le_forestier/san_francisco.sg"
+      - "hugues_aufray/santiano.sg"
+      - "tous_les_cris_les_sos.sg"
+      - "traditionnel/vent_frais.sg"
+      - "amplitude/vis_tes_reves.sg"
+titles: # Analyse des titres
+  prefix:
+    - The
+authors:
+  separators: ["and", "et"]
+
+template:
+  patacrep2.tex:
+    subtitle: "Groupe Leclerc - SGDF Phalsbourg"
+    url: "https://sites.sgdf.fr/phalsbourg-leclerc/"
+    color:
+      songlink: 88d4eb
+    bgcolor:
+      note: 88d4eb
+      songnumber: 88d4eb
+      index: 88d4eb
+
+  default2.tex:
+    title: "Carnet de chants"
+  separators: ["and", "et"]

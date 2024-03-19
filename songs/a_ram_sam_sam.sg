@@ -1,0 +1,19 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{A ram sam sam}
+  []
+
+  \begin{verse}
+    A ram sam sam
+    A ram sam sam
+    Gouli, gouli, gouli, gouli, gouli
+    Ram sam sam
+  \end{verse}
+
+  \begin{verse}
+    Aramis, aramis
+    Gouli, gouli, gouli, gouli, gouli
+    Ram sam sam
+  \end{verse}
+
+\endsong

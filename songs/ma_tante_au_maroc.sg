@@ -1,0 +1,40 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Ma tante au Maroc}
+  []
+
+  \begin{verse}
+  J'ai une tante au Maroc qui s'appelle Hip-Hop \rep{2}
+  J'ai une tante au Maroc \rep{2}
+  J'ai une tante au Maroc qui s'appelle Hip-Hop
+  \end{verse}
+
+  \begin{verse}
+    Elle descend de son chameau quand elle arrive
+    Hop-la Hop-la Hip-Hop \rep{2}
+    Elle descend de son chameau \rep{2}
+    Elle descend de son chameau quand elle arrive
+    Hop-la Hop-la, Hip-hop
+  \end{verse}
+
+  \begin{verse}
+    Et elle boit son verre de lait quand elle a soif
+    Glou-glou, Hop-la Hop-la Hip-hop ...
+  \end{verse}
+
+  \begin{verse}
+    Et elle mange du chocolat quand elle a faim
+    Miam-miam, Glou-glou ...
+  \end{verse}
+
+  \begin{verse}
+    Et elle met des minijupes quand elle a chaud
+    Mini-Mini, Wou-wou, Miam-miam ...
+  \end{verse}
+
+  \begin{verse}
+    Et elle sort ses pistolets quand elle a peur
+    Pan-pan, Mini-mini Wou-wou ...
+  \end{verse}
+
+\endsong

@@ -1,0 +1,48 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Tous les animaux}
+  []
+
+  \begin{chorus}
+    Tous les animaux du monde
+    Tous les animaux sont nos amis
+    Du lion à la colombe
+    Du renard au ouistiti
+  \end{chorus}
+
+  \begin{verse}
+    Le taureau n'est pas content
+    Sa femme est vache, c'est navrant
+    Le hibou chant'à tue-tête
+    J'suis heureux, ma femme est chouette
+  \end{verse}
+
+  \begin{verse}
+    Bien qu'il soit le plus musclé
+    L'éléphant se sent brimé
+    Car il a deux yeux tout noirs
+    Mais avec défense d'y voir
+  \end{verse}
+
+  \begin{verse}
+    Moi, j'ai un joyeux caniche
+    Qui aime qu'on lui fasse des niches
+    Et un poisson très revêche
+    Qui n'aime pas du tout la pêche
+  \end{verse}
+
+  \begin{verse}
+    Quelle est la fête des chats?
+    Moi j'donne ma langue aux chats
+    Vous ne trouvez pas du tout?
+    Voyons, c'est la mi-août
+  \end{verse}
+
+  \begin{verse}
+    Essayez d'offrir un verre
+    Même au milieu du désert
+    À mon ami le zébu
+    Il vous dira "Moi j'ai bu"
+  \end{verse}
+
+\endsong
