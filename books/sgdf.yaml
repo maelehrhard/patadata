@@ -15,7 +15,7 @@ content:
   sort:
     key: ["title"]
     content:
-      # - "*.sg"
+      - "custom_files/*.sg"
       - "claude_nougaro/armstrong.sg"
       - "joe_dassin/les_champs_elysees.sg"
       - "amplitude/avec_ma_tribu.sg"
@@ -36,9 +36,9 @@ content:
       - "hugues_aufray/le_bon_dieu_s_enervait.sg"
       - "pow_wow/le_lion_est_mort_ce_soir.sg"
       - "steve_waring/le_matou.sg"
-      - "marc_durand/le_monsieur_en_chemise.sg"
       - "hugues_aufray/le_petit_ane_gris.sg"
       - "renaud/mistral_gagnant.sg"
+      - "renaud/la_ballade_nord_irlandaise.sg"
       - "maxime_le_forestier/san_francisco.sg"
       - "hugues_aufray/santiano.sg"
       - "tous_les_cris_les_sos.sg"

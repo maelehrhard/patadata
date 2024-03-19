@@ -1,5 +1,6 @@
-
-.gitigonre
+.venv
+.cache
+*.pdf
 books/lyricbook_en.yaml
 books/lyricbook_fr.yaml
 books/naheulbeuk.yaml
