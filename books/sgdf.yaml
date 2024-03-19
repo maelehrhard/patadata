@@ -44,6 +44,7 @@ content:
       - "tous_les_cris_les_sos.sg"
       - "traditionnel/vent_frais.sg"
       - "amplitude/vis_tes_reves.sg"
+      - "jacques_sevin/chant_de_la_promesse.sg"
 titles: # Analyse des titres
   prefix:
     - The
