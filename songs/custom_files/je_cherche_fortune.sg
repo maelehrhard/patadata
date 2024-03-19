@@ -1,0 +1,57 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Je cherche fortune}
+  []
+
+  \begin{chorus}
+    Je cherche fortune
+    Tout au long du chemin (et du chemin !)
+    Et au clair de la lune,
+    À Montmartre, le soir.
+  \end{chorus}
+
+  \begin{verse}
+    Chez l’boulanger \rep{2}
+    Fais moi crédit \rep{2}
+    J'n'ai plus d'argent \rep{2}
+    J’paierai samedi \rep{2}
+    Si tu n’veux pas \rep{2}
+    M’donner du pain \rep{2}
+    J’te four’ la tête’ \rep{2}
+    Dans ton pétrin ! \rep{2} 
+  \end{verse}
+
+  \begin{verse}
+    Chez M'sieur l'boucher \rep{2}
+    Fais-moi crédit \rep{2}
+    J'n'ai plus d'argent \rep{2}
+    J’paierai samedi \rep{2}
+    Si tu n’veux pas \rep{2}
+    M’donner d’gigot \rep{2}
+    J’te fourr’ la tête \rep{2}
+    Dans ton frigo ! \rep{2}
+  \end{verse}
+
+  \begin{verse}
+    Chez M’sieur l’Curé \rep{2}
+    Fais-moi crédit \rep{2}
+    J'n'ai plus d'argent \rep{2}
+    J’paierai samedi \rep{2}
+    Si tu n’veux pas \rep{2}
+    Me confesser \rep{2}
+    J’te fourr’ la tête \rep{2}
+    dans l’bénitier ! \rep{2} 
+  \end{verse}
+  
+  \begin{verse}
+    Chez l'pharmacien \rep{2}
+    Fais-moi crédit \rep{2}
+    J'n'ai plus d'argent \rep{2}
+    J’paierai samedi \rep{2}
+    Si tu n’veux pas \rep{2}
+    M'donner d'aspro \rep{2}
+    J’te fourr’ la tête \rep{2}
+    Dans tes bocaux ! \rep{2} 
+  \end{verse}
+
+\endsong

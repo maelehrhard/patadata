@@ -1,0 +1,42 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Evenou Shalom}
+  []
+
+  \begin{chorus}
+    Evenou \[Em]shalom alerhem !
+    Evenou \[E7]shalom aler\[Am]hem !
+    Evenou \[B7]shalom aler\[Em]hem !
+    Evenou \[B7]shalom, shalom,
+    Shalom aler\[Em]hem !
+  \end{chorus}
+
+  \begin{verse}
+    Nous vous annonçons la paix,
+    Nous vous annonçons la paix,
+    Nous vous annonçons la paix,
+    Nous vous annonçons la paix,
+    La paix, la paix en Jésus !
+  \end{verse}
+
+  \begin{verse}
+    Nous vous annonçons la joie \rep{3}
+    Nous vous annonçons la joie
+    La joie, la joie en Jésus !
+  \end{verse}
+
+  \begin{verse}
+    Nous vous annonçons l'amour \rep{3}
+    Nous vous annonçons l'amour
+    L'amour, l'amour en Jésus !
+  \end{verse}
+
+  \begin{verse}
+    Nous vous annonçons la paix,
+    Nous vous annonçons la joie,
+    Nous vous annonçons l'amour,
+    Nous vous annonçons la paix,
+    la joie, l'amour en Jésus !
+  \end{verse}
+
+\endsong

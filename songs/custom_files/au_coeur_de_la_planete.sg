@@ -1,0 +1,45 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Au cœur de la planète}
+  [by={Hubert Bourel}]
+
+  \begin{chorus}
+    \[Dm]Un cœur \[C]bat
+    \[A]Au cœur de la plan\[Dm]ète
+    \[Dm]C’est \[C]ton cœur
+    \[A7]Louveteau \[Dm]jeannette
+    \[Gm]Tu t’\[C7]habilles aux \[Dm]couleurs
+    Du \[Gm7]soleil levant, \[Bm]du \[C]soleil \[Dm]levant 
+  \end{chorus}
+
+  \begin{verse}
+    \[Gm]]La confiance est à l’\[Dm]accueil
+    \[Gm]L’orée des forêts t’\[Dm]appelle
+    \[Bm]L’amitié \[F]donne des ailes
+    \[Gm6]Viens on \[Gm7]va \[A]franchir le seuil...
+    \[Gm]Auprès de la \[Dm]peuplade,
+    \[Bm]Ce sont tes \[F]amis,
+    \[Gm7]Tu vas \[A]réussir ta \[Dm]vie. 
+  \end{verse}
+
+  \begin{verse}
+    Pour l’ambiance ensoleillée
+    T’as des blagues plein les poches
+    Des idées plein la caboche
+    Des histoires à raconter...
+    Auprès de la peuplade,
+    ce sont tes amis,
+    Tu vas réussir ta vie.
+  \end{verse}
+
+  \begin{verse}
+    Tu vas devenir veilleur
+    Tu grandis et tu t’engages
+    Tu signes au bas de la page
+    Le monde devient meilleur...
+    Auprès de la peuplade,
+    Ce sont tes amis,
+    Tu vas réussir ta vie. 
+  \end{verse}
+
+\endsong

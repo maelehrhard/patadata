@@ -1,0 +1,16 @@
+\selectlanguage{french}
+\songcolumns{2}
+\beginsong{Brousse}
+  []
+
+  \begin{verse*}
+    Brousse, brousse
+    J'aime la brouse
+    J'aime la brousse
+    Et la jolie savane
+    Y'a des lions
+    Y'a des tigres
+    Y'a des léopards !
+  \end{verse*}
+
+\endsong
