@@ -33,6 +33,10 @@
     \fancycapotrue
 \fi
 
+\newfontface\sarabunbold{Sarabun Bold}
+\newfontface\caveatbrush{Caveat Brush}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Layout tweaks
 
@@ -105,8 +109,9 @@
 \newcounter{auco}
 
 \ifcustomtitle
-  \def\@titlefont{\Huge\bfseries\boldmath}
+  \def\@titlefont{\caveatbrush\Huge\bfseries\boldmath}
   \def\@subtitlefont{\large\bfseries\boldmath}
+  \def\@logofont{\sarabunbold\Large}
 
 
   \def\@getelement#1{\csname @#1\endcsname}
@@ -130,40 +135,38 @@
           \includegraphics[keepaspectratio=true, #1, #2]{\@picture}
   }
 
+    \definecolor{institutionalcolor}{cmyk}{1,0.49,0.12,0.58}
+    \definecolor{whitecmyk}{cmyk}{0,0,0,0}
+
+    \newcommand{\mydashedline}{
+        \begin{tikzpicture}
+            \draw[dash pattern=on 2pt off 2pt] (0,0) -- (\linewidth,0);
+        \end{tikzpicture}
+    }
+
+    \newcommand{\grouplogo}[2]{
+        \begin{tikzpicture}[baseline]
+            \node[anchor=west] (logo) at (0,0) {\includegraphics[width=10cm]{/img/SGDF_logo_blanc_horizontal.png}};
+            \node[anchor=west, align=left, font=\@logofont, text=whitecmyk] at ([xshift=3em]logo.east) {#1\\#2};
+        \end{tikzpicture}%
+    }
+
   \def\@maketitle{
       \def\and{\unskip,\cr&}
       \begin{titlepage}
           \thispagestyle{empty}
+          \pagecolor{institutionalcolor}
+          \color{whitecmyk}
           \begin{center}
-              {\rule{\textwidth}{1mm}}
-              {\@titlefont\@title\par}
-              \if!\@subtitle!\else 
-                  {\hfil\@subtitlefont\@subtitle\par}
-              \fi
-              {\rule{\textwidth}{1mm}}
+            \grouplogo{1ère Phalsbourg}{Groupe Leclerc}
           \end{center}
           \vfil
-          \ifdim \paperwidth < \paperheight
-             \@metainfos
-             \vfill
-             \begin{center}
-                 \@placepicture[width=.8\textwidth, height=.5\textheight]
-             \end{center}
-          \else
-             \begin{minipage}{.3\textwidth}
-                \@metainfos
-             \end{minipage}
-             \begin{minipage}{.7\textwidth}
-                \hfill%
-                \@placepicture[width=\textwidth, height=.6\textheight]
-             \end{minipage}
-          \fi
+          \begin{center}
+            {\@titlefont\@title\par}
+          \end{center}
           \vfil
-          \begin{flushright}
-          {\hfil\rule{.4\textwidth}{.75pt}\par}
-          \@footer
-          \end{flushright}
       \end{titlepage}
+      \nopagecolor
   }
 \fi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
