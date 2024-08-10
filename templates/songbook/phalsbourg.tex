@@ -39,6 +39,11 @@ schema:
         songnumber: //str
         note: //str
         index: //str
+    titlepage:
+      c: //float
+      m: //float
+      y: //float
+      k: //float
 
 default:
   en:
@@ -54,6 +59,11 @@ default:
       songnumber: D1E4AE
       note: D1E4AE
       index: D1E4AE
+      titlepage:
+        c: 100
+        m: 49
+        y: 12
+        k: 58
   fr:
     footer: "Créé avec le programme Songbook (\\url{http://www.patacrep.fr})"
 description:
@@ -159,10 +169,12 @@ description:
 
 (*- set template_var = _template["phalsbourg.tex"] -*)
 
+\definecolor{TitlePageBgColor}{cmyk}{(( template_var.bgcolor.titlepage ))}
 \definecolor{SongNumberBgColor}{HTML}{(( template_var.bgcolor.songnumber ))}
 \definecolor{NoteBgColor}{HTML}{(( template_var.bgcolor.note ))}
 \definecolor{IndexBgColor}{HTML}{(( template_var.bgcolor.index ))}
 
+\renewcommand{\titlepagebgcolor}{TitlePageBgColor}
 \renewcommand{\snumbgcolor}{SongNumberBgColor}
 \renewcommand{\notebgcolor}{NoteBgColor}
 \renewcommand{\idxbgcolor}{IndexBgColor}

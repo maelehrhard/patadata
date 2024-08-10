@@ -62,8 +62,9 @@ template:
     url: "https://sites.sgdf.fr/phalsbourg-leclerc/"
     version: '1'
     color:
-      songlink: 88d4eb
+      songlink: FF00FF #magenta
     bgcolor:
-      note: 88d4eb
-      songnumber: 88d4eb
-      index: 88d4eb
+      note: FF0000 #red
+      songnumber: 00FF00 #green
+      index: 0000FF #blue
+      titlepage: 
